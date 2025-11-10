@@ -1,0 +1,72 @@
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+              /* темний текст */
+  background: #ffffff;      /* білий фон */
+  -webkit-text-size-adjust: none;
+  background: #ffffff !important;
+  color: #222 !important;
+}
+
+/* Коментарі */
+.hljs-comment,
+.diff .hljs-header {
+  color: #6a737d;           /* контрастний сірий */
+  font-style: italic;
+}
+
+/* Ключові слова */
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-title,
+.hljs-name {
+             /* насичений синій */
+  font-weight: bold;
+  color: #005cc5 !important;
+  font-weight: bold !important;
+}
+}
+
+/* Числа та атрибути */
+.hljs-number,
+.hljs-literal,
+.hljs-attribute {
+  color: #e36209;           /* оранжевий */
+}
+
+/* Рядки */
+.hljs-string,
+.hljs-doctag {
+  color: #032f62;           /* темно-синій */
+}
+
+/* Вбудовані елементи */
+.hljs-built_in,
+.hljs-builtin-name {
+  color: #d73a49;           /* червоний */
+}
+
+/* Регулярки, символи */
+.hljs-regexp,
+.hljs-symbol {
+  color: #22863a;           /* зелений */
+}
+
+/* Типи та класи */
+.hljs-type,
+.hljs-class {
+  color: #6f42c1;           /* фіолетовий */
+  font-weight: bold;
+}
+
+/* Додавання та видалення */
+.hljs-addition {
+  background: #e6ffed;
+  color: #22863a;
+}
+
+.hljs-deletion {
+  background: #ffeef0;
+  color: #b31d28;
+}
